@@ -12,11 +12,19 @@ If you aren't sure what you should use:
 
 - For proprietary projects or more involved open source projects I heartily recommend GitLab CI. You don't have to use GitLab for your source control to make use of it.
 
+- If you're using GitHub and want to use GitLab CI, please see GitLab's documentation on the topic: https://docs.gitlab.com/ee/ci/ci_cd_for_external_repos/
+
 # Supported services
 
 - [TravisCI](.travis.yml)
 
 - [GitLab CI](.gitlab-ci.yml)
+
+# The builds for the demo project in this repository:
+
+- [TravisCI]()
+
+- [GitLab CI](https://gitlab.com/bitemyapp/haskell-continuous-integration/pipelines)
 
 # Services I'd like to add support for
 
