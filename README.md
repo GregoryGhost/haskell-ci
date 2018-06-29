@@ -22,12 +22,13 @@ If you aren't sure what you should use:
 
 # The builds for the demo project in this repository:
 
-- [TravisCI]()
+- [![TravisCI Build Status](https://travis-ci.com/bitemyapp/totto.svg?branch=master)](https://travis-ci.com/bitemyapp/totto)
 
-- [GitLab CI](https://gitlab.com/bitemyapp/haskell-continuous-integration/pipelines)
+<!-- - [GitLab CI](https://gitlab.com/bitemyapp/haskell-continuous-integration/pipelines) -->
+
+- [![GitLab CI build](https://img.shields.io/badge/Haskell--Continuous--Integration-GitLab%20CI-green.svg?longCache=true&style=flat)](https://gitlab.com/bitemyapp/haskell-continuous-integration/pipelines)
 
 # Services I'd like to add support for
-
 
 - CircleCI
 
