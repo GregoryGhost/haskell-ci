@@ -1,4 +1,4 @@
-# Haskell CI/CD template
+# Haskell CI/CD Quickstart templates
 
 This is a family of templates for quickly getting started with CI/CD on popular build services like TravisCI. I'll be adding more stuff as I go. Everything will initially be based on things I've used for [Bloodhound](), [Esqueleto](), and for client work.
 

@@ -1,0 +1,27 @@
+name: haskell-ci-demo
+version: '0.0.1'
+synopsis: Demo project for testing the CI templates
+category: Educational
+author: Chris Allen
+maintainer: cma@bitemyapp.com
+copyright: (c) 2018 Chris Allen
+license: BSD3
+homepage: https://github.com/bitemyapp/haskell-continuous-integration
+git: git://github.com/bitemyapp/haskell-continuous-integration.git
+
+dependencies:
+  - base >=4.8 && <5.0
+
+ghc-options: -Wall
+
+library:
+  source-dirs: src/
+  exposed-modules:
+    - CI.Demo
+
+executables:
+  ci-demo:
+    source-dirs: app
+    main: main.hs
+    dependencies:
+      - haskell-ci-demo
