@@ -1,0 +1,8 @@
+version: "2"
+
+services:
+  fixic-bot:
+    build: .
+    container_name: "fixic-bot"
+    network_mode: bridge
+    restart: always
